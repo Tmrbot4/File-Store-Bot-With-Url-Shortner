@@ -3,14 +3,14 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "23171051"))
   API_HASH = os.environ.get("API_HASH", "10331d5d712364f57ffdd23417f4513c")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7092683394:AAEBc00dEd_bgSMK-IbPQKL8qaulF8V696Q")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "VB_File_Storee_Bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002218745553"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7076164009:AAHx-pMK8tGnPbhBHtr0ci6Fs-tPehInWd8")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "TMR_File_Store_Bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002065082779"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Ziplinker.net")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "8e869e3bd0f04a3dd1282d4e0a7bb52224a3a576")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6987799874"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002240993351")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001868502293")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002237296986"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Vɪsʜᴀʟ Kᴜᴍᴀʀ](https://t.me/Vishalku25)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/Vishalku25)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
