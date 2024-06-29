@@ -38,4 +38,4 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 [Donate Me](https://t.me/Vishalku25)
 """
-  HOME_TEXT = """<b>👋 Hello {mention}✨ /n I can store private files in Specified Channel and other users can access it from special link.</b>"""
+  HOME_TEXT = """<b>👋 Hello {mention}✨ /nI can store private files in Specified Channel and other users can access it from special link.\n🌿 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vishal Kumar</a></b>"""
