@@ -28,7 +28,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
 │
-╰──────[ 😎 ]───────────⍟<b>"""
+╰──────[ 😎 ]───────────⍟</b>"""
   ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Vɪsʜᴀʟ Kᴜᴍᴀʀ](https://t.me/Vishalku25)
  
