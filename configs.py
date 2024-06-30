@@ -17,8 +17,7 @@ class Config(object):
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-  ABOUT_BOT_TEXT = f"""
-This is a Permanent FileStore Bot. 
+  ABOUT_BOT_TEXT = f"""<b>This is a Permanent FileStore Bot. 
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
@@ -29,8 +28,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
 │
-╰──────[ 😎 ]───────────⍟
-"""
+╰──────[ 😎 ]───────────⍟<b>"""
   ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Vɪsʜᴀʟ Kᴜᴍᴀʀ](https://t.me/Vishalku25)
  
@@ -38,4 +36,4 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 [Donate Me](https://t.me/Vishalku25)
 """
-  HOME_TEXT = """<b>Hɪ, {} 👋 \n\nɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ. ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ & ᴀɴɪᴍᴀᴛɪᴏɴ. ɪ ᴡɪʟʟ ꜱᴛᴏʀᴇ ɪᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴀᴛ ꜰɪʟᴇ.. \n\n‼️ ᴄʟɪᴄᴋ ᴏɴ Aʙᴏᴜᴛ ᴛᴏ ɢᴇᴛ ғᴜʟʟ ᴅᴇᴛᴀɪʟꜱ ᴏғ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇꜱ . \n\🧑‍💻 nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vɪsʜᴀʟ Kᴜᴍᴀʀ</a><b>"""
+  HOME_TEXT = """<b>Hɪ, {} 👋 \n\nɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ. ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ & ᴀɴɪᴍᴀᴛɪᴏɴ. ɪ ᴡɪʟʟ ꜱᴛᴏʀᴇ ɪᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴀᴛ ꜰɪʟᴇ.. \n\n‼️ ᴄʟɪᴄᴋ ᴏɴ Aʙᴏᴜᴛ ᴛᴏ ɢᴇᴛ ғᴜʟʟ ᴅᴇᴛᴀɪʟꜱ ᴏғ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇꜱ . \n\n🧑‍💻 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vɪsʜᴀʟ Kᴜᴍᴀʀ</a><b>"""
