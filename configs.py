@@ -11,7 +11,7 @@ class Config(object):
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6987799874"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001868502293")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002237296986"))
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002012824372"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -36,4 +36,4 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 [Donate Me](https://t.me/Vishalku25)
 """
-  HOME_TEXT = """<b>Hɪ, {} 👋 \n\nɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ. ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ & ᴀɴɪᴍᴀᴛɪᴏɴ. ɪ ᴡɪʟʟ ꜱᴛᴏʀᴇ ɪᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴀᴛ ꜰɪʟᴇ.. \n\n‼️ ᴄʟɪᴄᴋ ᴏɴ Aʙᴏᴜᴛ ᴛᴏ ɢᴇᴛ ғᴜʟʟ ᴅᴇᴛᴀɪʟꜱ ᴏғ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇꜱ . \n\n🧑‍💻 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vɪsʜᴀʟ Kᴜᴍᴀʀ</a><b>"""
+  HOME_TEXT = """<b>Hɪ, {} 👋 \n\nɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ. ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ & ᴀɴɪᴍᴀᴛɪᴏɴ. ɪ ᴡɪʟʟ ꜱᴛᴏʀᴇ ɪᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴀᴛ ꜰɪʟᴇ.. \n\n‼️ ᴄʟɪᴄᴋ ᴏɴ Aʙᴏᴜᴛ ᴛᴏ ɢᴇᴛ ғᴜʟʟ ᴅᴇᴛᴀɪʟꜱ ᴏғ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇꜱ . \n\n🧑‍💻 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vɪsʜᴀʟ Kᴜᴍᴀʀ</a></b>"""
